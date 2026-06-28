@@ -1,0 +1,239 @@
+.room-card{
+
+    background:#fff;
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 35px rgba(15,23,42,.08);
+
+    transition:.35s;
+
+    height:100%;
+
+}
+
+.room-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 25px 60px rgba(15,23,42,.15);
+
+}
+
+.room-image{
+
+    width:100%;
+
+    height:240px;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+.room-card:hover .room-image{
+
+    transform:scale(1.06);
+
+}
+
+.room-content{
+
+    padding:25px;
+
+}
+
+.room-top{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:15px;
+
+}
+
+.room-top h3{
+
+    font-size:24px;
+
+    font-weight:700;
+
+    color:#1E293B;
+
+}
+
+.available{
+
+    background:#DCFCE7;
+
+    color:#15803D;
+
+    padding:6px 14px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.booked{
+
+    background:#FEE2E2;
+
+    color:#DC2626;
+
+    padding:6px 14px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.room-number{
+
+    color:#64748B;
+
+    margin-bottom:18px;
+
+}
+
+.room-features{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+    margin-bottom:20px;
+
+}
+
+.room-features span{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    color:#475569;
+
+    font-size:15px;
+
+}
+
+.room-description{
+
+    color:#64748B;
+
+    line-height:1.7;
+
+    min-height:60px;
+
+}
+
+.room-bottom{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-top:25px;
+
+}
+
+.room-bottom h3{
+
+    color:#5B5CF0;
+
+    font-size:30px;
+
+    margin:0;
+
+}
+
+.room-bottom h3 small{
+
+    font-size:15px;
+
+    color:#94A3B8;
+
+}
+
+.room-btn{
+
+    background:linear-gradient(135deg,#5B5CF0,#7C3AED);
+
+    color:#fff;
+
+    padding:12px 24px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.room-btn:hover{
+
+    color:#fff;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 15px 35px rgba(91,92,240,.35);
+
+}
+
+.room-btn.disabled{
+
+    background:#CBD5E1;
+
+    pointer-events:none;
+
+}
+
+@media(max-width:768px){
+
+.room-bottom{
+
+    flex-direction:column;
+
+    gap:20px;
+
+    align-items:flex-start;
+
+}
+
+.room-btn{
+
+    width:100%;
+
+    justify-content:center;
+
+}
+
+}

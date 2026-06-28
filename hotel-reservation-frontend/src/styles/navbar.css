@@ -1,0 +1,52 @@
+.custom-navbar{
+    background:#fff;
+    padding:16px 0;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.brand-logo{
+    font-size:28px;
+    font-weight:700;
+    color:#5B5CF0 !important;
+    text-decoration:none;
+}
+
+.navbar-nav{
+    gap:30px;
+}
+
+.nav-link{
+    color:#334155 !important;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#5B5CF0 !important;
+}
+
+.book-btn{
+    border:none;
+    padding:12px 24px;
+    border-radius:12px;
+    background:linear-gradient(135deg,#5B5CF0,#7C3AED);
+    color:#fff;
+    font-weight:600;
+    transition:.3s;
+}
+
+.book-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 15px 35px rgba(91,92,240,.35);
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+.navbar-toggler:focus{
+    box-shadow:none;
+}
