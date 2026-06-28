@@ -140,26 +140,49 @@ Tables
 
 ## 📸 Screenshots
 
-### Home Page
+### 🏠 Home Page
 
-(Add screenshot)
+![Home](screenshots/home.png)
 
-### Hotels
+---
 
-(Add screenshot)
+### 🏨 Hotels Page
 
-### Rooms
+Browse available hotels with ratings, locations, and images.
 
-(Add screenshot)
+![Hotels](screenshots/hotels.png)
 
-### Booking
+---
 
-(Add screenshot)
+### 🛏️ Rooms Page
 
-### Payment
+View available rooms, pricing, capacity, and book your preferred room.
 
-(Add screenshot)
+![Rooms](screenshots/rooms.png)
 
+---
+
+### 📅 Booking Page
+
+Select check-in/check-out dates and confirm your booking.
+
+![Booking](screenshots/booking.png)
+
+---
+
+### 💳 Payment Page
+
+Complete payment using UPI, Card, or Cash at Hotel.
+
+![Payment](screenshots/payment.png)
+
+---
+
+### 🗄️ Database Schema
+
+PostgreSQL database containing Hotels, Rooms, Users, Bookings, and Payments.
+
+![Database](screenshots/database.png)
 ---
 
 ## 🔮 Future Improvements
